@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styal.css">
+</head>
+<body>
+    <section class="main">
+        <div class="con">
+            <video autoplay loop muted plays-inline class="background">
+                <source src="5908584-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+            <h1>Happy Govardhan Puja</h1>
+
+        </div>
+        <div class="container">
+            <div class="inner-box">
+                <img src="krishna2.png" class="krishna">
+                <img src="" class="mountain">
+                <img src="matki.png" class="matki">
+                <img src="matki.png" class="matki2">
+
+            </div>
+
+        </div>
+        
+    </section>
+    <h3>Radhe Radhe</h3>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".krishna").animate({top: "-=1150" }, 2000);
+            $(".mountain").animate({top: "-=1170" }, 4000);
+            $(".matki").animate({top: "-=900" }, 2050);
+            $(".matki2").animate({top: "-=900" }, 2050);
+            $("h1").animate({left: "-=1130" }, 2000);
+            $("h3").animate({left: "+=2100" }, 2050);
+        });
+    </script>
+</body>
+</html>
